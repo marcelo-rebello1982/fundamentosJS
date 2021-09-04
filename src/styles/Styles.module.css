@@ -1,0 +1,59 @@
+.roxo{
+  height: 100%;
+  background-color: rgb(124, 51, 192);
+  color: #fff;
+}
+
+.vermelho{
+  height : 100vh;
+  background-color: rgb(165, 49, 49);
+  color: #fff;
+}
+
+.azul{
+  height : 100vh;
+  background-color: rgb(37, 25, 207);
+  color: #fff;
+}
+
+.amarelo{
+  height : 100vh;
+  background-color: rgb(207, 221, 13);
+  color: #fff;
+}
+
+.verde{
+  height : 100vh;
+  background-color: rgba(13, 221, 30, 0.918);
+  color: #fff;
+}
+
+.layout {
+  height : 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #777;
+}
+
+.cabecalho h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.cabecalho a {
+  background-color: brown;;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.conteudo {
+  padding: 25px;
+  height: 100%;
+}

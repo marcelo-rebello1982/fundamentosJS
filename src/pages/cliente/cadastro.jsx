@@ -1,3 +1,9 @@
 export default function Teste() {
-    return "cliente"
+ return (
+
+    <div>
+    <h3> Cliente Cadastro em HTML</h3>
+    </div>
+
+    )
 }
